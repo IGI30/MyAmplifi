@@ -4,12 +4,12 @@ buildscript {
         google()
         jcenter()
 
-        mavenCentral()
+//        mavenCentral()
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.0.0"
 
-        classpath 'com.amplifyframework:amplify-tools-gradle-plugin:1.0.1'
+//        classpath 'com.amplifyframework:amplify-tools-gradle-plugin:1.0.1'
     }
 }
 
@@ -18,7 +18,7 @@ allprojects {
         google()
         jcenter()
 
-        mavenCentral()
+//        mavenCentral()
     }
 }
 
@@ -26,4 +26,4 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-apply plugin: 'com.amplifyframework.amplifytools'
+//apply plugin: 'com.amplifyframework.amplifytools'
